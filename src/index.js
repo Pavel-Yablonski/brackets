@@ -1,5 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  const list = [], state = [];
+  let list = [], state = [];
 
   let flag = true;
 
